@@ -13,8 +13,14 @@
     "qrcode-terminal": "^0.12.0",
     "dotenv": "^16.0.3",
     "nodemon": "^3.0.2"
-  },
+  },{
   "engines": {
-    "node": ">=18.x"
+    "node": "18.x",
+    "npm": "9.x"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "build": "npm install --omit=optional"
   }
+}
 }
