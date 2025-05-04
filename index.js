@@ -21,4 +21,4 @@ client.ev.on("messages.upsert", ({ messages }) => {
   client.sendMessage(message.key.remoteJid, {
     text: "تم استلام رسالتك!",
   });
-});￼Enter
+});
